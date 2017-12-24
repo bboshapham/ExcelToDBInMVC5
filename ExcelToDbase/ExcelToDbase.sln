@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelToDbase.WEB", "ExcelToDbase.WEB\ExcelToDbase.WEB.csproj", "{2DF5B624-E6C5-41D3-8A7E-B7A1F829509B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelToDbase.DAL", "ExcelToDbase.DAL\ExcelToDbase.DAL.csproj", "{2F3B2C06-F775-41BE-A6B8-12811595321B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExcelToDbase.BLL", "ExcelToDbase.BLL\ExcelToDbase.BLL.csproj", "{98246118-B3CA-44DF-93A8-2DFC5E384091}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2DF5B624-E6C5-41D3-8A7E-B7A1F829509B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DF5B624-E6C5-41D3-8A7E-B7A1F829509B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DF5B624-E6C5-41D3-8A7E-B7A1F829509B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DF5B624-E6C5-41D3-8A7E-B7A1F829509B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2F3B2C06-F775-41BE-A6B8-12811595321B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2F3B2C06-F775-41BE-A6B8-12811595321B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2F3B2C06-F775-41BE-A6B8-12811595321B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2F3B2C06-F775-41BE-A6B8-12811595321B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98246118-B3CA-44DF-93A8-2DFC5E384091}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98246118-B3CA-44DF-93A8-2DFC5E384091}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98246118-B3CA-44DF-93A8-2DFC5E384091}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98246118-B3CA-44DF-93A8-2DFC5E384091}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

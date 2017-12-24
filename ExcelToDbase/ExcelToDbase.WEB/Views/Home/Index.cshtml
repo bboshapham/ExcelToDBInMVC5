@@ -1,0 +1,31 @@
+﻿@using (Html.BeginForm("Import", "Home", FormMethod.Post, new
+{
+    enctype =
+                    "multipart/form-data"
+}))
+{
+    @Html.Raw(ViewBag.Error)
+    <label>Excel File</label>
+    <input type="file" class="form-control" name="excelfile" />
+
+    <input type="submit" class="btn btn-primary" value="Import" />
+
+}
+@if (ViewBag.Message != null)
+{
+    <p class="alert alert-success"> @Html.Raw(ViewBag.Message)</p>
+
+}
+<div class="row col-lg-12">
+    <!-- <div class="left col-lg-4">
+        <button class="btn btn-success" onclick="location.href='@Url.Action("/ViewInsertedData")'">
+            <i class="glyphicon glyphicon-eye-open"></i> View Inserted Data
+        </button>
+    </div>-->
+    <div class="left col-lg-4">
+        <button class="btn btn-success" onclick="location.href='@Url.Action("/SelectFromDB")'">
+            <i class="glyphicon glyphicon-export"></i> Export To Excel
+        </button>
+    </div>
+
+</div>
